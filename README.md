@@ -2,16 +2,16 @@ Configuration
 -------------
 
 Using pre-configured zip archive:
--- create folder "C:\development"
--- move archive to "C:\development" and unzip in that location
--- please check if the following locations exist:
-- "C:\development\appbucket\tools\apache-activemq-5.11.0\bin"
-- "C:\development\appbucket\tools\hsqldb-2.3.2\hsqldb\bin"
-- "C:\development\appbucket\tools\tomcat\bin"
-- "C:\development\appbucket\projects\monitor-shared"
-- "C:\development\appbucket\projects\monitor-trigger"
-- "C:\development\appbucket\projects\monitor-web"
-- "C:\development\appbucket\projects\monitor-docs"
+- create folder "C:\development"
+- move archive to "C:\development" and unzip in that location
+- please check if the following locations exist:
+"C:\development\appbucket\tools\apache-activemq-5.11.0\bin"
+"C:\development\appbucket\tools\hsqldb-2.3.2\hsqldb\bin"
+"C:\development\appbucket\tools\tomcat\bin"
+"C:\development\appbucket\projects\monitor-shared"
+"C:\development\appbucket\projects\monitor-trigger"
+"C:\development\appbucket\projects\monitor-web"
+"C:\development\appbucket\projects\monitor-docs"
 OR
 Starting from scratch:
 -- activemq
