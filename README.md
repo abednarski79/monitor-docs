@@ -12,7 +12,9 @@ Using pre-configured zip archive:
  - "C:\development\appbucket\projects\monitor-trigger"
  - "C:\development\appbucket\projects\monitor-web"
  - "C:\development\appbucket\projects\monitor-docs"
+
 OR
+
 Starting from scratch:
 - activemq
  - download activemq archive from http://activemq.apache.org/ and install
@@ -47,7 +49,9 @@ Using pre-configured zip archive:
 - to check health status of the application open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/status"
 - to check manifest version details open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/manifest"
 - to check message in the queue open web browser and to got "http://localhost:8161/admin/browse.jsp?JMSDestination=testqueue"
+
 OR
+
 Starting from scratch:
 - activemq
  - start application according to the instruction on the web page
