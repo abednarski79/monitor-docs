@@ -48,7 +48,7 @@ Using pre-configured zip archive:
  - follow the read-me file from monitor-trigger project for examples of SQL queries - run them and observer the output on monitor web page
 - to check health status of the application open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/status"
 - to check manifest version details open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/manifest"
-- to check message in the queue open web browser and to got "http://localhost:8161/admin/browse.jsp?JMSDestination=testqueue"
+- to check message in the queue open web browser and to go to (use admin/admin credentials) "http://localhost:8161/admin/browse.jsp?JMSDestination=testqueue"
 
 OR
 
