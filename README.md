@@ -10,7 +10,7 @@ Using pre-configured zip archive:
 - "C:\development\appbucket\projects\monitor-shared"
 - "C:\development\appbucket\projects\monitor-trigger"
 - "C:\development\appbucket\projects\monitor-web"
-- "C:\development\appbucket\projects\monitor"
+- "C:\development\appbucket\projects\monitor-docs"
 OR
 Starting from scratch:
 -- activemq
@@ -26,7 +26,6 @@ Starting from scratch:
 - https://github.com/abednarski79/monitor-web.git
 - follow the read-me files in above projects
 
-// TODO - validate run procedure step by step
 Running
 -------
 Using pre-configured zip archive:
@@ -39,10 +38,10 @@ run.bat
 -- monitor application
 - open command line console and go to "C:\development\appbucket\tools\tomcat\bin" and execute command:
 run.bat
-- open web browser and go to "http://localhost:8080/monitor-web/"
+- open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/"
 - open command line console and go to "C:\development\appbucket\tools\hsqldb-2.3.2\hsqldb\bin" and execute command:
 runManagerSwing.bat
-- set as type ...In-Memory and as url jdbc:hsqldb:hsql://localhost/testdb
+- set as type "HSQL Database Engine Server" and as url jdbc:hsqldb:hsql://localhost/testdb
 - follow the read-me file from monitor-trigger project for examples of SQL queries - run them and observer the output on monitor web page
 - to check health status of the application open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/status"
 - to check manifest version details open web browser and go to "http://localhost:8080/monitor-web-1.0-SNAPSHOT/manifest"
